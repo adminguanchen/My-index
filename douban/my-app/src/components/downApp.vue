@@ -1,7 +1,6 @@
 <template>
   <div class="box">
-    <router-link to="/down" class="box1">下载豆瓣APP</router-link>
-
+    <router-link to="/downapps" class="box1">下载豆瓣APP</router-link>
   </div>
 </template>
 

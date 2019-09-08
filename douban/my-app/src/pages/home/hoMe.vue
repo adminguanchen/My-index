@@ -1,10 +1,8 @@
 <template>
+  <!-- <img src="../../../static/img/1.gif" v-if=""/> -->
   <div class="box">
-    <span>豆瓣</span>
+    <huitui></huitui>
     <routerlink-s class="links"></routerlink-s>
-    
-    
-    
     <div class="banners">
       <ban-ner></ban-ner>
     </div>
@@ -18,12 +16,14 @@
   import routerlinkS from '../../components/home/routerlinkS'
   import banNer from '../../components/home/banNer'
   import liSt from '../../components/home/liSt'
+  import huitui from '../../components/huitui'
   export default{
     components:{
       routerlinkS,
       banNer,
-      liSt
-    }
+      liSt,
+      huitui
+    },
   }
 </script>
 
@@ -45,7 +45,7 @@
   }
   .box .links{
     float: left;
-    width:20rem;
+    width:15rem;
     height: 3rem;
   }
 </style>

@@ -1,4 +1,6 @@
 <template>
+<div>
+<img src="../../../static/img/1.gif" v-if="arr.length<=0" id="bigimg"/>
   <div class="box">
     <div class="box1">
       <huitui class="callback"></huitui>
@@ -12,6 +14,7 @@
       <lyfooter></lyfooter>
     </div>
   </div>
+</div>
 </template>
 
 
@@ -45,6 +48,11 @@
 <style scoped="">
   .box{
     width: 100%;
+  }
+  #bigimg{
+    width: 10rem;
+    height: 10rem;
+    margin: 50% 25%;
   }
   .box1{
     display: flex;

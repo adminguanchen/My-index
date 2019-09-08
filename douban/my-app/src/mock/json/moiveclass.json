@@ -1,0 +1,22 @@
+{
+  "moive":[
+    {"title":"经典","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"冷门佳作","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"豆瓣高分","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"动作","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"喜剧","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"爱情","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"悬疑","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"恐怖","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"科幻","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"治愈","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"文艺","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"成长","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"动画","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"华语","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"欧美","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"韩国","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"日本","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"},
+    {"title":"泰国","tcolor":"#42B983","fuhao":">","fcolor":"#cccccc"}
+  ]
+}

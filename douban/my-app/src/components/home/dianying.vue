@@ -1,7 +1,6 @@
 <template>
   <div class="box">
-    <!-- <huitui></huitui> -->
-    <span>豆瓣</span>
+    <huitui></huitui>
     <routerlink-s class="links"></routerlink-s>
     <div class="banner">
 
@@ -9,30 +8,22 @@
   </div>
 </template>
 <script>
-  // import huitui from '../huitui'
+  import huitui from '../huitui'
   import routerlinkS from '../../components/home/routerlinkS'
   export default{
     components:{
       routerlinkS,
-      // huitui
-    },
-    data(){
-      return{
-        obj:[]
-      }
-    },
-    created(){
-      this.axios({
-        url:"/moive",
-        method:"get"
-      }).then((data)=>{
-        console.log(data.data.movie)
-      })
+      huitui
     }
   }
 </script>
 
 <style scoped="">
+  .box{
+    float: left;
+    /* width: 100%; */
+    height: 3rem;
+  }
   .box span{
     color:#42B983;
     float: left;
@@ -41,14 +32,4 @@
     width:4rem;
     height: 3rem;
   }
-
-/*  .box{
-    float: left;
-  }
-  .links{
-    background-color: #42B983;
-    float: left;
-    height: 5rem;
-    width: 10rem;
-  } */
 </style>

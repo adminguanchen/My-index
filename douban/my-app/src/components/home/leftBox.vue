@@ -1,12 +1,12 @@
 <template>
   <div class="box">
-    <div class="leftbox">
-       <span>{{biaoti}}</span>
-        <p>{{ftr}}</p>
-    </div>
-
-    <img :src="imgurl"/>
-
+    <!-- <router-link to="{name:'xiangqing',params:{id:v.id}}"> -->
+      <div class="leftbox">
+         <span>{{biaoti}}</span>
+          <p>{{ftr}}</p>
+      </div>
+      <img :src="imgurl"/>
+    <!-- </router-link> -->
   </div>
 
 </template>
@@ -33,6 +33,7 @@
 .leftbox span{
     display:inline-block ;
     width: 16rem;
+    color: #000000;
   }
 .leftbox p{
     margin-top:1.3rem;

@@ -11,15 +11,21 @@
 </script>
 
 <style scoped="">
-.ha{
+a{
   text-decoration: none;
 }
-
 .qq{
   display: block;
   padding: 0;
   width: 100%;
   height: 1rem;
   border: 0;
+
+      /* margin-right: 1rem;
+      border: .12rem solid sandybrown;
+      padding: 0.8rem;
+      border-radius: .4rem;
+      text-align: center;
+      display: inline-block; */
 }
 </style>

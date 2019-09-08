@@ -1,0 +1,14 @@
+{
+  "tushu":[
+    {"title1":"最受关注图书 | 虚构类","title2":"更多","color":"#ccc"}
+  ],
+  "tushu1":[
+    {"title1":"最受关注图书 | 非虚构类","title2":"更多","color":"#ccc"}
+  ],
+  "tushu2":[
+    {"title1":"豆瓣纸书","title2":"更多","color":"#ccc"}
+  ],
+  "tushu3":[
+    {"title1":"发现好书","title2":"更多","color":"#ccc"}
+  ]
+}

@@ -1,7 +1,7 @@
 <template>
-  <div class="box">
+  <div class="box12">
     <ul class="ulbox">
-      <li><router-link to="/dianying" class="link1 de">电影</router-link></li>
+      <li><router-link to="/yingyuan" class="link1 de">电影</router-link></li>
       <li><router-link to="/tushu" class="link2 de">图书</router-link></li>
       <li><router-link to="/guangbo" class="link3 de">广播</router-link></li>
       <li><router-link to="/xiaozu" class="link4 de">小组</router-link></li>
@@ -14,15 +14,16 @@
 </script>
 
 <style scoped>
-  .box{
-    width: 80%;
+  .box12{
+    margin-left: 5rem;
+    width: 16rem;
     height: 3rem;
     float: left;
   }
   .box .ulbox{
     float: left;
     margin:0;
-    margin-left: 5rem;
+    /* margin-left: 2rem; */
   }
   li{
     float: left;

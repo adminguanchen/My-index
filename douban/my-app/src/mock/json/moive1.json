@@ -1,0 +1,14 @@
+{
+  "moive":[
+    {"title":"肖申克的救赎","imgurl":"../../../static/img/1.jpg"},
+    {"title":"霸王别姬","imgurl":"../../../static/img/2.jpg"},
+    {"title":"这个杀手不太冷","imgurl":"../../../static/img/3.jpg"},
+    {"title":"我是谁我在那里","imgurl":"../../../static/img/4.jpg"},
+    {"title":"威威杜典","imgurl":"../../../static/img/5.jpg"},
+    {"title":"肖申克的救赎","imgurl":"../../../static/img/1.jpg"},
+    {"title":"霸王别姬","imgurl":"../../../static/img/2.jpg"},
+    {"title":"这个杀手不太冷","imgurl":"../../../static/img/3.jpg"},
+    {"title":"我是谁我在那里","imgurl":"../../../static/img/4.jpg"},
+    {"title":"威威杜典","imgurl":"../../../static/img/5.jpg"}
+  ]
+}

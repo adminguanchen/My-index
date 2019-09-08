@@ -1,0 +1,14 @@
+{
+  "moive":[
+    {"title":"杀我","imgurl":"../../../static/img/7.jpg"},
+    {"title":"杜典","imgurl":"../../../static/img/8.jpg"},
+    {"title":"田要发财","imgurl":"../../../static/img/9.jpg"},
+    {"title":"大飒飒的春天","imgurl":"../../../static/img/10.jpg"},
+    {"title":"率啥苏","imgurl":"../../../static/img/11.jpg"},
+    {"title":"杀我","imgurl":"../../../static/img/7.jpg"},
+    {"title":"霸王别姬","imgurl":"../../../static/img/8.jpg"},
+    {"title":"这个杀手不太冷","imgurl":"../../../static/img/9.jpg"},
+    {"title":"我是谁我在那里","imgurl":"../../../static/img/10.jpg"},
+    {"title":"威威杜典","imgurl":"../../../static/img/11.jpg"}
+  ]
+}

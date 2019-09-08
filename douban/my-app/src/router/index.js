@@ -12,13 +12,16 @@ import xiaozu from '../components/home/xiaozu'
 import sousuo from '../components/home/sousuo'
 import guangbo from '../components/home/guangbo'
 import yingyuan from '../components/home/yingyuan'
-import xingxing from '../components/home/xingxing'
 import gengduo from '../components/home/gengduo'
 import oumei from '../components/home/oumei'
 import zhuomian from '../components/home/zhuomian'
 import shiyong from '../components/home/shiyong'
 import goodmoive from '../components/home/goodmoive'
 import goodmoives from '../components/home/goodmoives'
+import goodbooks from '../components/home/goodbooks'
+import moiveclass from '../components/home/moiveclass'
+import xiangqing from '../components/home/xiangqing'
+import downapps from '../components/downapps'
 
 import stores from '../components/store/stores'
 import getters from '../components/store/getters'
@@ -38,6 +41,11 @@ export default new Router({
       component: hoMe
     },
     {
+      path: '/xiangqing/:id',
+      name: 'xiangqing',
+      component: xiangqing
+    },
+    {
       path: '/goodmoive',
       name: 'goodmoive',
       component: goodmoive
@@ -46,6 +54,21 @@ export default new Router({
       path: '/goodmoives',
       name: 'goodmoives',
       component: goodmoives
+    },
+    {
+      path: '/goodbooks',
+      name: 'goodbooks',
+      component: goodbooks
+    },
+    {
+      path: '/moiveclass',
+      name: 'moiveclass',
+      component: moiveclass
+    },
+    {
+      path: '/downapps',
+      name: 'downapps',
+      component: downapps
     },
     {
       path: '/login',
@@ -92,11 +115,6 @@ export default new Router({
       path:'/yingyuan',
       name:'yingyuan',
       component:yingyuan
-    },
-    {
-      path:'/xingxing',
-      name:'xingxing',
-      component:xingxing
     },
     {
       path:'/gengduo',

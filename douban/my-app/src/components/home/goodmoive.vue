@@ -12,5 +12,6 @@
 .glinks{
   float: right;
   text-decoration: none;
+  color: #42B983;
 }
 </style>
